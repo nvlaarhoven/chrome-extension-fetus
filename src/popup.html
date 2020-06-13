@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/atomic.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/heart.png" width="30" height="30">
+      <h4>How big is my fetus?</h4>
+    </div>
+
+    <div id="pregnancy-info" class="container">
+      <h4 id="gestational-age"></h4>
+      <p id="fetus-size" class="padding-base"></p>
+      <p id="caption" class="small-italic">Loading...</p>
+      <button
+        type="button"
+        id="change-due-date-button"
+        class="small-button"
+      >
+        Change due date
+      </button>
+    </div>
+
+    <form id="pregnancy-form" class="container">
+      <h4>Congratulations! You are pregnant!</h4>
+      <div class="padding-small">
+        <label for="dueDate">
+          When are you expecting the little one?
+        </label>
+        <br />
+        <span class="small-italic">
+          You can change this any time if you're not sure yet
+        </span>
+      </div>
+      <input
+        id="due-date-input"
+        type="date"
+        name="dueDate"
+        class="padding-small margin-bottom-large"
+      >
+      <br />
+      <button type="submit" class="large-button">
+        Get started
+      </button>
+    </form>
+
+    <script type="module" src="js/popup.js"></script>
+  </body>
+</html>
