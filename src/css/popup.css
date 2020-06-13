@@ -1,0 +1,75 @@
+:root {
+  --font-small: 12px;
+  --font-base: 14px;
+  --font-large: 16px;
+
+  --padding-small: 5px;
+  --padding-base: 10px;
+  --padding-large: 15px;
+
+  --margin-small: 5px;
+  --margin-base: 10px;
+  --margin-large: 15px;
+
+  --brand-bg-color: #F9F9F9;
+  --brand-text-color: #444444;
+  --brand-dark-pink: #E7506B;
+  --brand-light-pink: #FFD2DC;
+}
+
+body, button, input {
+  font: var(--font-base) Arial, Helvetica, sans-serif;
+  color: var(--brand-text-color);
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--brand-bg-color);
+  width: 400px;
+}
+
+.container {
+  padding: var(--padding-small) var(--padding-large);
+}
+
+.header {
+  background-color: var(--brand-light-pink);
+  padding: var(--padding-large) var(--padding-base);
+}
+
+.header img {
+  float: left;
+  margin-top: -7px;
+  padding-right: var(--padding-small);
+}
+
+.header h4 {
+  margin: 0px;
+  font-style: italic;
+  text-align: left;
+}
+
+button {
+  color: var(--brand-bg-color);
+  background-color: var(--brand-dark-pink);
+  border: 1px solid var(--brand-dark-pink);
+  border-radius: 5px;
+  margin: var(--margin-base);
+}
+
+button:hover {
+  color: var(--brand-light-pink);
+}
+
+.small-button {
+  font-size: var(--font-small);
+  padding: var(--padding-small);
+}
+
+.large-button {
+  font-size: var(--font-large);
+  padding: var(--padding-base);
+}

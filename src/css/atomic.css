@@ -1,0 +1,20 @@
+.bold {
+  font-weight: bold;
+}
+
+.small-italic {
+  font-size: var(--font-small);
+  font-style: italic;
+}
+
+.padding-small {
+  padding: var(--padding-small);
+}
+
+.padding-base {
+  padding: var(--padding-base);
+}
+
+.margin-bottom-large {
+  margin-bottom: var(--margin-large);
+}
