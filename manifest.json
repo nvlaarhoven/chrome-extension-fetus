@@ -4,7 +4,7 @@
   "description": "How big is my baby this week?",
   "permissions": [
     "storage",
-    "https://www.nhs.uk/.readonly"
+    "https://www.nhs.uk/"
   ],
   "browser_action": {
     "default_popup": "src/popup.html",
