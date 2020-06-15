@@ -1,6 +1,6 @@
 {
-  "version": "0.0.4",
   "name": "Pregnancy - Fetus Size",
+  "version": "0.0.5",
   "description": "How big is my baby this week?",
   "permissions": [
     "storage",
