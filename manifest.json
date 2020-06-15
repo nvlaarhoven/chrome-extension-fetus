@@ -1,10 +1,10 @@
 {
-  "name": "Fetus size",
-  "version": "0.0.4",
-  "description": "How big is my fetus this week?",
+  "name": "Pregnancy - Fetus Size",
+  "version": "0.0.5",
+  "description": "How big is my baby this week?",
   "permissions": [
     "storage",
-    "https://www.nhs.uk/.readonly"
+    "https://www.nhs.uk/"
   ],
   "browser_action": {
     "default_popup": "src/popup.html",
